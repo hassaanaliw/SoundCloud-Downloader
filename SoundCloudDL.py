@@ -20,29 +20,17 @@ def main(url):
 
     accountname = matches.group(1)
 
-
-
     song =matches.group(2)
 
     simple_title = accountname + u'-' + song
-
-
-
     url = 'http://soundcloud.com/%s/%s' % (accountname, song)
     print(url)
-
-
     next = 'http://api.soundcloud.com/resolve.json?url=' + url + '&client_id=%s' % client_id
-    print(next)
-
-
+    
     info_json = requests.get(next, headers=html).text
 
     info = json.loads(info_json)
     video_id = info['id']
-    print(video_id)
-
-
     final = "https://api.sndcdn.com/i1/tracks/%s/streams?client_id=%s"%(video_id,client_id)
     print(final)
     next_json = requests.get(final,headers=html).text
