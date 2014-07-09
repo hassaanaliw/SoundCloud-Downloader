@@ -7,7 +7,7 @@ Errors
 ----------------------
 Some SoundCloud songs only provide RTMP-stream links. At the moment I am not aware of a way to download these.
 
-An example is  [Mt.Olympus by BIG K.R.I.T](https://soundcloud.com/bigkrit/mt-olympus)
+An example is  [MT.OLYMPUS BY BIG K.R.I.T](https://soundcloud.com/bigkrit/mt-olympus)
 
 Usage
 -------------------
