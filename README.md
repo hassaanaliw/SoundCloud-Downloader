@@ -17,6 +17,13 @@ Navigate to wherever you downloaded the script using terminal or command window.
 
 And Follow the instructions.
 
+EDIT:
+
+Or Just Use the very simple GUI by:
+
+```python gui.py```
+
+
 Disclaimer
 -----------
 
